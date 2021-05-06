@@ -2,7 +2,7 @@
 
 A *quota request template *helps you save time when customizing quotas for new accounts in your organization\. To use a template, configure the desired service quota increases for new accounts\. Then, enable template association\. This associates the template with your organization in AWS Organizations\. Whenever new accounts are created in your organization, the template automatically requests quota increases for you\.
 
-To use a request template, you must use AWS Organizations and the new accounts must be created in the same organization\. Your organization must use the features set, [all features](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_org_support-all-features.html)\. If you use consolidated billing features, you can't use quota request templates\.
+To use a request template, you must use AWS Organizations and the new accounts must be created in the same organization\. Your organization must use the features set, [all features](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_org_support-all-features.html)\.
 
 You can update the request template by adding or removing service quotas\. You can also increase the values for adjustable quotas\. As soon as you adjust the template, those service quota values are requested for new accounts\. Updating a request template does not update quota values for existing accounts\.
 
